@@ -1,11 +1,4 @@
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
-import { Calendar1, Clock, Link } from "lucide-react";
+import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import Image from "next/image";
 import React from "react";
 
@@ -39,11 +32,11 @@ const Testimonials = () => {
       <h2 className="capitalize text-center text-3xl text-blue-500 font-bold">
         what our users says
       </h2>
-      <div className="grid grid-cols-3 gap-6 py-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
         {users.map((user, index) => (
           <Card className="gap-12 justify-between" key={index}>
             <CardContent>
-              <p className="text-gray-700">"{user.description}"</p>
+              <p className="text-gray-700">&quot;{user.description}&quot;</p>
             </CardContent>
             <CardFooter>
               <div className="flex gap-4">

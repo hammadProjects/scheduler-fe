@@ -26,7 +26,7 @@ const Features = () => {
       <h2 className="text-center text-3xl text-blue-500 font-bold">
         Key Features
       </h2>
-      <div className="grid grid-cols-3 gap-6 py-8">
+      <div className="grid  grid-cols-1 md:grid-cols-3 gap-6 py-8">
         {features.map((feature, index) => (
           <Card className="gap-4" key={index}>
             <CardHeader className="flex flex-col justify-center items-center gap-4">

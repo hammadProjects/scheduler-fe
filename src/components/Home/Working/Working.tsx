@@ -22,7 +22,7 @@ const Working = () => {
       <h2 className="capitalize text-center text-3xl text-blue-500 font-bold">
         How it works?
       </h2>
-      <div className="grid grid-cols-4">
+      <div className="grid  grid-cols-1 md:`grid-cols-4">
         {stepsOfWorking.map((step, index) => (
           <div key={index} className="text-center flex flex-col gap-2">
             <div className="w-12 h-12 mx-auto rounded-full bg-blue-200 flex items-center justify-center">
