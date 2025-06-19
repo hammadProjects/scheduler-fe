@@ -22,8 +22,8 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20">
-      <h2 className="text-center text-3xl text-blue-500 font-bold">
+    <section className="py-8 md:py-20">
+      <h2 className="text-center text-2xl md:text-3xl text-blue-500 font-bold">
         Key Features
       </h2>
       <div className="grid  grid-cols-1 md:grid-cols-3 gap-6 py-8">

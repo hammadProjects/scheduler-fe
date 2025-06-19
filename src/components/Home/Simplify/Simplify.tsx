@@ -5,8 +5,8 @@ import React from "react";
 const Simplify = () => {
   return (
     <section className="pb-10">
-      <div className="bg-blue-700 rounded-sm text-white text-center py-8 space-y-2">
-        <h6 className="font-bold text-3xl">
+      <div className="bg-blue-700 rounded-sm text-white text-center py-8 px-4 space-y-4 md:space-y-2">
+        <h6 className="font-bold text-2xl md:text-3xl">
           Ready to simplify your scheduling?
         </h6>
         <p>

@@ -16,7 +16,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className={`${fontSans.className}`}>
       <Header />
-      <main className="min-h-screen px-20 bg-gradient-to-b from-blue-50 to-white w-full">
+      <main className="min-h-screen px-5 sm:px-8 md:px-12 lg:px-20 bg-gradient-to-b from-blue-50 to-white w-full">
         {children}
       </main>
       <Footer />

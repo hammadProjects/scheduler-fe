@@ -29,7 +29,7 @@ const Testimonials = () => {
 
   return (
     <section>
-      <h2 className="capitalize text-center text-3xl text-blue-500 font-bold">
+      <h2 className="capitalize text-center text-2xl md:text-3xl text-blue-500 font-bold">
         what our users says
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 py-8">
