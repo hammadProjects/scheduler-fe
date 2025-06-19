@@ -5,10 +5,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="px-2 py-20 items-center">
+    <section className="py-20 items-center">
       <div className="flex justify-between">
         <div className="max-w-1/2">
-          <h2 className="capitalize text-6xl text-blue-500 font-bold max-w-1/2 mb-2">
+          <h2 className="capitalize text-6xl text-blue-500 font-bold max-w-8/12 mb-2">
             Simplify your scheduling
           </h2>
           <p className="text-xl text-gray-600 mb-6">
