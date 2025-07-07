@@ -27,7 +27,7 @@ const Hero = () => {
             alt="Hero-poster"
             width={450}
             height={450}
-            style={{ margin: "0 auto" }}
+            className="mx-auto h-80"
           />
         </div>
       </div>
